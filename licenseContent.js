@@ -53,15 +53,11 @@ SOFTWARE.`
 
 const licenseBadge = (license) => {
     if (license === 'The Unlicense') {
-        return `
-        [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
-        `
+        return '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)'
     } else if (license === 'MIT') {
-        return `
-        [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-        `
+        return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
     } else {
-        return ``
+        return ''
     }
 }
 

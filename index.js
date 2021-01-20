@@ -73,7 +73,7 @@ const promptUser = () => {
             type: 'list',
             name: 'license',
             message: 'Select a license for your project:',
-            choices: ['MIT','GNU GPLv3','The Unlicense'],
+            choices: ['MIT','The Unlicense'],
             when: ({confirmLicense}) => confirmLicense
         },
         {
