@@ -4,10 +4,28 @@ const generateContent = contentArr => {
 ## Description
 ${contentArr.projectDesc}
 
-Read Me
-File
-Stuff
-Table of Contents`;
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+
+## Instalation
+
+## Usage
+
+## License
+
+## Contributing
+
+## Tests
+
+## Questions
+
+`;
 };
 
 module.exports = generateContent;
