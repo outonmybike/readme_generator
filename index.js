@@ -61,7 +61,13 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'email',
-            message: 'Email Address:',
+            message: 'Enter email contact instructions here:',
+        },
+        {
+            type: 'list',
+            name: 'license',
+            message: 'Select a license for your project:',
+            choices: ['None','MIT']
         }
     ]);
 };
