@@ -64,11 +64,25 @@ const promptUser = () => {
             message: 'Enter email contact instructions here:',
         },
         {
+            type: 'confirm',
+            name: 'confirmLicense',
+            message: 'Would you like to add a license to the project?',
+            default: true
+        },
+        {
             type: 'list',
             name: 'license',
             message: 'Select a license for your project:',
-            choices: ['None','MIT']
+            choices: ['MIT','The Unlicense'],
+            when: ({confirmLicense}) => confirmLicense
+        },
+        {
+            type: 'input',
+            name: 'fullName',
+            message: 'Enter the full name associated with the licnse:',
+            when: ({confirmLicense}) => confirmLicense
         }
+
     ]);
 };
 

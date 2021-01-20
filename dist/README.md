@@ -1,7 +1,7 @@
-# Project Title: Dan
+# Dans Project
 
 ## Description
-Dannn
+Descriptive text here
 
 ## Table of Contents
 
@@ -14,31 +14,31 @@ Dannn
 
 ## Installation
 
-
+Install like a boss
 
 ## Usage
 
-none
+Use with caution
 
 ## Contributing
 
-lots
+Dan, Jake, Racer
 
 ## Tests
 
-test test
+Test it like you stole it
 
 ## Questions
 
 For questions, contact GibHub user [outonmybike](https://github.com/outonmybike).
 
-For more questions, email dan@dan.com
+
 
 ## License
 
 MIT License
 
-Copyright (c) [2021] [undefined]
+Copyright (c) [2021] [Jeffrey Lebowski]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
