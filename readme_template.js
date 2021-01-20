@@ -36,7 +36,8 @@ ${test}
 
 ## Questions
 
-${github}
+For questions, contact GibHub user [${github}](https://github.com/${github}).
+
 ${email}
 
 `;

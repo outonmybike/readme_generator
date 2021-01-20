@@ -1,7 +1,7 @@
-# Project Title: Dan
+# Project Title: Daniel
 
 ## Description
-How to ride a bike
+this is a project
 
 ## Table of Contents
 
@@ -14,11 +14,11 @@ How to ride a bike
 
 ## Installation
 
-download then run
+download, install, run, repeat
 
 ## Usage
 
-Use on a full stomach
+
 
 ## License
 
@@ -26,14 +26,15 @@ Use on a full stomach
 
 ## Contributing
 
-bob, dan, racer
+
 
 ## Tests
 
-use litmus paper
+Test it like you stole it
 
 ## Questions
 
-outonmybike
-email@email.com
+For questions, contact GibHub user [outonmybike](https://github.com/outonmybike).
+
+
 
