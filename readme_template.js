@@ -1,8 +1,9 @@
-const generateContent = contentArr => {
-    return`# Project Title: ${contentArr.projectTitle}
+module.exports = contentArr => {
+    const {title, desc, install, usage, contrib, test, github, email } = contentArr;
+    return`# Project Title: ${title}
 
 ## Description
-${contentArr.projectDesc}
+${desc}
 
 ## Table of Contents
 
@@ -13,19 +14,30 @@ ${contentArr.projectDesc}
 * [Tests](#tests)
 * [Questions](#questions)
 
-## Instalation
+## Installation
+
+${install}
 
 ## Usage
 
+${usage}
+
 ## License
+
+
 
 ## Contributing
 
+${contrib}
+
 ## Tests
+
+${test}
 
 ## Questions
 
+${github}
+${email}
+
 `;
 };
-
-module.exports = generateContent;

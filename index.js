@@ -5,13 +5,14 @@ const generateContent = require('./readme_template.js');
 var fileName = './dist/README.md'
 
 const promptUser = () => {
+
     return inquirer.prompt([
         {
             type: 'input',
-            name: 'projectTitle',
+            name: 'title',
             message: 'Project Title:',
-            validate: nameInput => {
-                if (nameInput) {
+            validate: titleInput => {
+                if (titleInput) {
                     return true;
                 } else {
                     console.log('Enter a title for the project');
@@ -21,18 +22,47 @@ const promptUser = () => {
         },
         {
             type: 'input',
-            name: 'projectDesc',
-            message: 'Project Description:',
-            validate: githubInput => {
-                if (githubInput) {
+            name: 'desc',
+            message: 'Enter a description:',
+            validate: descInput => {
+                if (descInput) {
                     return true;
                 } else {
                     console.log('Enter a description for the project');
                     return false;
                 }
             }
+        },
+        {
+            type: 'input',
+            name: 'install',
+            message: 'Installation notes:',
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'Usage notes:',
+        },
+        {
+            type: 'input',
+            name: 'contrib',
+            message: 'Contributors:',
+        },
+        {
+            type: 'input',
+            name: 'test',
+            message: 'Project testing notes:',
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'Github Username:',
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Email Address:',
         }
-
     ]);
 };
 

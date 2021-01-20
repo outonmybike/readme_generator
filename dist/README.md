@@ -1,7 +1,7 @@
-# Project Title: Test Project Title
+# Project Title: Dan
 
 ## Description
-Here is the description 
+How to ride a bike
 
 ## Table of Contents
 
@@ -12,15 +12,28 @@ Here is the description
 * [Tests](#tests)
 * [Questions](#questions)
 
-## Instalation
+## Installation
+
+download then run
 
 ## Usage
 
+Use on a full stomach
+
 ## License
+
+
 
 ## Contributing
 
+bob, dan, racer
+
 ## Tests
 
+use litmus paper
+
 ## Questions
+
+outonmybike
+email@email.com
 
