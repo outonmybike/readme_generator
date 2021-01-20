@@ -3,7 +3,7 @@ const {licenseContent, licenseBadge} = require('./licenseContent.js')
 module.exports = contentArr => {
     const {title, desc, install, usage, contrib, test, github, email, confirmLicense, license, fullName } = contentArr;
     return`# ${title}
-
+${licenseBadge(license)}
 ## Description
 ${desc}
 

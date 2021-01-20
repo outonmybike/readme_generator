@@ -2,7 +2,7 @@ const licenseContent = (license, fullName) => {
     if (license === 'MIT') {
         return `MIT License
 
-Copyright (c) [${new Date().getFullYear()}] [${fullName}]
+Copyright (c)${new Date().getFullYear()} ${fullName}
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -52,7 +52,17 @@ SOFTWARE.`
 };
 
 const licenseBadge = (license) => {
-    return license
+    if (license === 'The Unlicense') {
+        return `
+        [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+        `
+    } else if (license === 'MIT') {
+        return `
+        [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+        `
+    } else {
+        return ``
+    }
 }
 
 
