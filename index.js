@@ -103,7 +103,6 @@ const writeFile = fileContent => {
 
 promptUser ()
     .then(answers => {
-        console.log(answers)
         return answers
     })
     .then(answers => {
@@ -111,5 +110,11 @@ promptUser ()
         return output      
     })
     .then(stuffForPage => {
-        return writeFile(stuffForPage);
+        return writeFile(stuffForPage)
+    })
+    .then(nextStep => {
+        console.log('File written successfully. See dist/ folder')
+    })
+    .catch(err => {
+        console.log(err);
     })
