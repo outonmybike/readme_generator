@@ -22,7 +22,8 @@ To use the generator run the index.js file with Node in the local command line. 
 
 A sample README.md file generated using the program is currently stored in the dist/ folder of the Git repo. The sample file will be over written once the index.js file is successfuly run.
 
-See the screencast video below for a live animation demonstration of the script in use
+See the screencast video below for a live animation demonstration of the script in use:
+https://drive.google.com/file/d/16t_5HwSwQAyM67KG9Z1CgJnJPQvEElcV/view
 
 ## Contributing
 
