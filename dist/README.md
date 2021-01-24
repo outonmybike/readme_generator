@@ -1,7 +1,7 @@
-# Dan
+# Creating a readme file
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 ## Description
-Dan
+Enter the description of the project here
 
 ## Table of Contents
 
@@ -14,25 +14,25 @@ Dan
 
 ## Installation
 
-Dan\aasdf
+Any notes on how to install the project would go here
 
 ## Usage
 
-asdfaj
+This is the place to insert any notes on how the project should be used
 
 ## Contributing
 
-asd;fkj
+If you have any guidelines on how to contribute, you can put those here
 
 ## Tests
 
-notes
+Oddly enough, you would want to put any testing notes in this spot
 
 ## Questions
 
 For questions, contact GibHub user [outonmybike](https://github.com/outonmybike).
 
-For additional quesitons contact Jeff at Jeff@gmail.com
+For additional questions reach out to Jeff at jeff@gmail.com
 
 ## License
 
